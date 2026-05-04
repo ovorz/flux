@@ -1,4 +1,0 @@
-2025-08-06 09:24:38.972 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 20220
-2025-08-06 09:24:38.973 | INFO     | __main__:start_server:78 - Server started on port 20220: ('0.0.0.0', 20220)
-2025-08-06 09:31:40.639 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 42920)
-2025-08-06 09:31:41.133 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 42920)], server: [10.2.8.6] Sent 1003 response

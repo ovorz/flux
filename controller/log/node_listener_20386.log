@@ -1,8 +1,0 @@
-2025-08-06 09:24:39.929 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 20386
-2025-08-06 09:24:39.931 | INFO     | __main__:start_server:78 - Server started on port 20386: ('0.0.0.0', 20386)
-2025-08-06 09:26:25.030 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 51622)
-2025-08-06 09:26:25.975 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 51622)], server: [10.2.8.6] Sent 1003 response
-2025-08-06 09:26:31.044 | WARNING  | __main__:handle_connection:133 - Connection error: ('81.70.23.5', 51622) - [Errno 104] Connection reset by peer
-2025-08-06 09:26:31.045 | ERROR    | __main__:handle_connection:140 - Error closing connection: [Errno 104] Connection reset by peer
-2025-08-06 09:31:29.690 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 36108)
-2025-08-06 09:31:31.075 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 36108)], server: [10.2.8.6] Sent 1003 response

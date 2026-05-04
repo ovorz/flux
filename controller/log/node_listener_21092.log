@@ -1,6 +1,0 @@
-2025-08-06 09:24:47.234 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 21092
-2025-08-06 09:24:47.235 | INFO     | __main__:start_server:78 - Server started on port 21092: ('0.0.0.0', 21092)
-2025-08-06 09:26:02.858 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 38356)
-2025-08-06 09:26:02.859 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 38356)], server: [10.2.8.6] Sent 1003 response
-2025-08-06 09:32:08.047 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 57050)
-2025-08-06 09:32:08.256 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 57050)], server: [10.2.8.6] Sent 1003 response
