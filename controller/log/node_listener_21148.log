@@ -1,0 +1,4 @@
+2025-08-06 09:24:47.983 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 21148
+2025-08-06 09:24:47.984 | INFO     | __main__:start_server:78 - Server started on port 21148: ('0.0.0.0', 21148)
+2025-08-06 09:26:02.264 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 58992)
+2025-08-06 09:26:02.349 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 58992)], server: [10.2.8.6] Sent 1003 response

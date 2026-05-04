@@ -1,0 +1,6 @@
+2025-08-06 09:24:44.216 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 20860
+2025-08-06 09:24:44.217 | INFO     | __main__:start_server:78 - Server started on port 20860: ('0.0.0.0', 20860)
+2025-08-06 09:26:04.815 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 58666)
+2025-08-06 09:26:09.592 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 58666)], server: [10.2.8.6] Sent 1003 response
+2025-08-06 09:26:23.450 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 51882)
+2025-08-06 09:26:23.451 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 51882)], server: [10.2.8.6] Sent 1003 response

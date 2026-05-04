@@ -1,0 +1,6 @@
+2025-08-06 09:24:38.120 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 20052
+2025-08-06 09:24:38.121 | INFO     | __main__:start_server:78 - Server started on port 20052: ('0.0.0.0', 20052)
+2025-08-06 09:26:13.558 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 42704)
+2025-08-06 09:26:13.656 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 42704)], server: [10.2.8.6] Sent 1003 response
+2025-08-06 09:32:03.334 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 58916)
+2025-08-06 09:32:04.820 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 58916)], server: [10.2.8.6] Sent 1003 response

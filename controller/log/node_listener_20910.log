@@ -1,0 +1,6 @@
+2025-08-06 09:24:44.738 | INFO     | __main__:start_server:64 - 监听器启用SO_REUSEPORT for port 20910
+2025-08-06 09:24:44.739 | INFO     | __main__:start_server:78 - Server started on port 20910: ('0.0.0.0', 20910)
+2025-08-06 09:26:06.013 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 60418)
+2025-08-06 09:26:07.963 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 60418)], server: [10.2.8.6] Sent 1003 response
+2025-08-06 09:26:11.781 | DEBUG    | __main__:handle_connection:91 - Received connection from ('81.70.23.5', 50680)
+2025-08-06 09:26:11.872 | INFO     | __main__:handle_connection:116 - client: [('81.70.23.5', 50680)], server: [10.2.8.6] Sent 1003 response
