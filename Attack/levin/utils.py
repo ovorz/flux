@@ -19,12 +19,11 @@ def rshift(val, n):
     return (val % 0x100000000) >> n
 
 
-# 生成随机的ip地址（字符串类型）
+
 def generate_random_ip():
-    # 生成四个随机整数作为IP地址的四个部分
+
     ip_parts = [random.randint(0, 255) for _ in range(4)]
 
-    # 将四个部分连接成IP地址字符串
     ip_address = ".".join(map(str, ip_parts))
 
     return ip_address

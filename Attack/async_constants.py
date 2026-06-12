@@ -9,20 +9,14 @@ from datetime import datetime, timedelta, timezone
 import levin
 import levin.constants
 
-#数据库配置
-SQL_SERVER_IP = "192.210.201.39"       #修改
-# SQL_SERVER_IP = "104.168.32.108"       # origin
-DATABASE_NAME = "xmr_mainnet"
-DATABASE_URL = f"mysql+pymysql://root:gyl150203@{SQL_SERVER_IP}:3306/{DATABASE_NAME}"
-
 def get_public_ips():
     public_ips = []
     private_ranges = [
         ipaddress.ip_network('10.0.0.0/8'),
         ipaddress.ip_network('172.16.0.0/12'),
         ipaddress.ip_network('192.168.0.0/16'),
-        ipaddress.ip_network('169.254.0.0/16'),  # 链路本地地址
-        ipaddress.ip_network('127.0.0.0/8')      # 环回地址
+        ipaddress.ip_network('169.254.0.0/16'),  
+        ipaddress.ip_network('127.0.0.0/8')    
     ]
 
     for interface in netifaces.interfaces():

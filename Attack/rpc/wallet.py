@@ -101,7 +101,6 @@ class Wallet:
         }
         return self.makeReq("get_balance", params)
     
-    # 获取流入钱包的outputs
     def incoming_transfers(self, transfer_type: str = "available", account_index: int = 0):
         params = {
             "transfer_type": transfer_type,
@@ -109,7 +108,7 @@ class Wallet:
         }
         return self.makeReq("incoming_transfers", params)
     
-    # 通过key image指定要花费的outputs
+
     def sweep_single(
         self, address: str, key_image: str, outputs: int = 1, unlock_time: int = 0,
         do_not_relay: bool = False, get_tx_hex: bool = False, get_tx_metadata: bool = False

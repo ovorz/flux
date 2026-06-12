@@ -34,8 +34,7 @@ class _CType:
         elif isinstance(buffer, socket.socket):
             buffer = buffer.recv(cls.NBYTES)
         elif isinstance(buffer, asyncio.StreamReader):
-            buffer = await buffer.readexactly(cls.NBYTES) #gyl
-
+            buffer = await buffer.readexactly(cls.NBYTES) 
         if len(buffer) < cls.NBYTES:
             if not padding:
                 _bytes = 'bytes' if cls.NBYTES > 1 else 'byte'

@@ -224,7 +224,6 @@ class Bucket:
         #     bufsize = 2048
         #     remaining = bucket.cb.value - len(bucket.payload)
         #     data = await sock.read(bufsize)
-        #     # gyl 检查连接关闭
         #     if not data:
         #         raise Exception(f"读取超时或连接关闭: 当前已读取={len(bucket.payload)}")
 

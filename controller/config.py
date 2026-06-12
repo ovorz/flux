@@ -58,9 +58,6 @@ target_node_list = [("49.233.169.195", 28285),]
 
 target_ip_list = [node[0] for node in target_node_list]
 
-# 获取ground_truth所需的
-TARGET_RPC_USERNAME = "gyl"
-TARGET_RPC_PASSWORD = "150203"
 
 # 转发目标 monerod 配置：收到 2002 NEW_TRANSACTION 消息后，将其转发到此节点的 P2P 端口
 # 将 FORWARD_MONEROD_HOST 设置为目标服务器 IP，置空字符串则禁用转发
