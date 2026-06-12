@@ -1,4 +1,4 @@
-# Deanonymization Project README
+# flux Project README
 
 This project is located in the `deanonymization` directory. It is designed for experiments on Monero's P2P network, including transaction propagation, graylist filling, whitelist filling, and connection reset attacks. The project contains four core subdirectories:
 
